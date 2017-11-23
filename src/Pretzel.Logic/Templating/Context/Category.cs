@@ -1,3 +1,5 @@
+using System;
+using System.Collections;
 using System.Collections.Generic;
 using DotLiquid;
 
@@ -7,5 +9,6 @@ namespace Pretzel.Logic.Templating.Context
     {
         public IEnumerable<Page> Posts { get; set; }
         public string Name { get; set; }
+
     }
 }

@@ -49,7 +49,8 @@
       <HintPath>..\packages\DotlessClientOnly.1.5.2\lib\dotless.ClientOnly.dll</HintPath>
     </Reference>
     <Reference Include="DotLiquid, Version=2.0.64.0, Culture=neutral, PublicKeyToken=82e46016ecf9f07c, processorArchitecture=MSIL">
-      <HintPath>..\packages\DotLiquid.2.0.64\lib\net451\DotLiquid.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\dotliquid\src\DotLiquid\bin\Debug\net45\DotLiquid.dll</HintPath>
     </Reference>
     <Reference Include="HtmlAgilityPack, Version=1.4.9.5, Culture=neutral, PublicKeyToken=bd319b19eaf3b43a, processorArchitecture=MSIL">
       <HintPath>..\packages\HtmlAgilityPack.1.4.9.5\lib\Net45\HtmlAgilityPack.dll</HintPath>

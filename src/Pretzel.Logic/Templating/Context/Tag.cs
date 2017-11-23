@@ -1,3 +1,4 @@
+using System;
 using DotLiquid;
 using System.Collections.Generic;
 
@@ -13,5 +14,6 @@ namespace Pretzel.Logic.Templating.Context
         {
             Posts = new List<Page>();
         }
+
     }
 }

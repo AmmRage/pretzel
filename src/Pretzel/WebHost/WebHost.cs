@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Globalization;
 using System.Threading.Tasks;
 using Pretzel.Logic.Extensions;
@@ -40,7 +40,7 @@ namespace Pretzel
             var options = new StartOptions
             {
                 ServerFactory = "Nowin",
-                Port = Port
+                Port = Port,
             };
 
             Startup.Content = content;

@@ -1,4 +1,4 @@
-﻿using NDesk.Options;
+using NDesk.Options;
 using Pretzel.Commands;
 using Pretzel.Logic;
 using Pretzel.Logic.Commands;
@@ -7,10 +7,12 @@ using System;
 using System.ComponentModel.Composition;
 using System.ComponentModel.Composition.Hosting;
 using System.ComponentModel.Composition.Primitives;
+using System.Diagnostics;
 using System.IO;
 using System.IO.Abstractions;
 using System.Linq;
 using System.Reflection;
+using TraceLevel = Pretzel.Logic.Extensions.TraceLevel;
 
 namespace Pretzel
 {
